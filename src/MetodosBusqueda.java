@@ -7,4 +7,14 @@ public class MetodosBusqueda {
         }
         return -1;
     }
+
+    public void imprimirArreglo(int [] arrego){
+        int tam =arrego.length;
+        for (int i=0; i<tam; i++){
+            System.out.println(" [" + arrego[i] + "]");
+            }
+    }
+
+    
 }
+
