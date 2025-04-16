@@ -1,5 +1,7 @@
 import java.util.Scanner;
 import controllers.MetodosBusqueda;
+import controllers.MetodosBusquedaBinario;
+import controllers.MetodosOrdenamiento;
 import models.Person;
 
 public class App {
@@ -43,7 +45,14 @@ public class App {
         personas [6] = new Person(107,"Jorge");
         System.out.println("La lista ingresada es: ");
         
-        MetodosBusqueda mB = new MetodosBusqueda(personas);
+       // MetodosBusqueda mB = new MetodosBusqueda(personas);
+    
+       MetodosOrdenamiento mB= new MetodosOrdenamiento();
+        mB.ordenarsinpasos(personas);
 
+
+
+       MetodosBusquedaBinario mBB= new MetodosBusquedaBinario(personas);
+        mBB.showPerson();
     }
 }
