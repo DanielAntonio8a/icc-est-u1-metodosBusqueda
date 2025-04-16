@@ -32,24 +32,18 @@ public class App {
         //     System.out.println("El elemento "+elemento+" no es listado");
         // }
 
-//-----------------------------------------------------------------------------------------------------------------------------
+        //-----------------------------------------------------------------------------------------------------------------------------
         Person [] personas = new Person[7] ;
         personas [0] = new Person(101,"Juan");
         personas [1] = new Person(102,"Pedro");
         personas [2] = new Person(103,"Luis");
         personas [3] = new Person(104,"Carlos");
-        personas [4] = new Person(105,"Juan");
-        personas [5] = new Person(106,"Pedro");
-        personas [6] = new Person(107,"Luis");
+        personas [4] = new Person(105,"Daniel");
+        personas [5] = new Person(106,"Andres");
+        personas [6] = new Person(107,"Jorge");
         System.out.println("La lista ingresada es: ");
         
         MetodosBusqueda mB = new MetodosBusqueda(personas);
-
-
-
-
-
-
 
     }
 }

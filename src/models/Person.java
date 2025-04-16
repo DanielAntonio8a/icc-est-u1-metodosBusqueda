@@ -5,43 +5,30 @@ public class Person {
    private String name;
 
    
-//    @Override
-// public String toString() {
-//     return "Person [code=" + code + ", name=" + name + "]";
-// }
-
-
-
-
+   @Override
+   public String toString() {
+      return "Persona (Codigo: "+code+", Nombre: "+name+")";
+   }
 
    public Person(int code, String name) {
-    this.code = code;
-    this.name = name;
-    }
-
-
-
-   @Override
-public String toString() {
-    // TODO Auto-generated method stub
-    return super.toString();
-}
-
+      this.code = code;
+      this.name = name;
+   }
 
 
    public int getCode() {
-    return code;
+      return code;
    }
+
    public void setCode(int code) {
-    this.code = code;
+      this.code = code;
    }
+
    public String getName() {
-    return name;
+      return name;
    }
+
    public void setName(String name) {
-    this.name = name;
+      this.name = name;
    }
-
-
-   
 }
